@@ -34,14 +34,17 @@ Luôn chạy lại yarn install sau khi chuyển nhánh để đảm bảo depen
 
 Bạn cần mở 3 cửa sổ Terminal song song và chạy các lệnh sau:
 
-🧩 Terminal 1: Khởi tạo Blockchain nội bộ
+🧩 Terminal 1: Khởi tạo Blockchain nội bộ 
+
 yarn chain
 
 🧩 Terminal 2: Compile & deploy Smart Contract
+
 cd <challenge>
 yarn deploy
 
 🧩 Terminal 3: Chạy Frontend
+
 cd <challenge>
 yarn start
 
@@ -69,13 +72,18 @@ Ví mới tạo sẽ chưa có ETH. Bạn có thể sử dụng faucet sau để
 https://sepolia-faucet.pk910.de/
 
 🔹 Bước 3: Deploy Smart Contract lên Sepolia
+
 yarn deploy --network sepolia
 
 🔹 Bước 4: Verify Smart Contract
+
 yarn verify --network sepolia
 
 🔹 Bước 5: Deploy Frontend lên Vercel
+
 yarn vercel
 Contract URL
+
 👉 Link Smart Contract trên Sepolia Etherscan
+
 
