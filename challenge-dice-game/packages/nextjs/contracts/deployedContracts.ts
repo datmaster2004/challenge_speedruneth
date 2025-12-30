@@ -5,9 +5,9 @@
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 const deployedContracts = {
-  31337: {
+  11155111: {
     DiceGame: {
-      address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      address: "0xa935aEA9358AbeA2a6E37E2d5b20E85913AE4Fb0",
       abi: [
         {
           inputs: [],
@@ -102,10 +102,10 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {},
-      deployedOnBlock: 675,
+      deployedOnBlock: 9944309,
     },
     RiggedRoll: {
-      address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      address: "0xC52dE3fc89765858e59CADb33781343ca47aB55a",
       abi: [
         {
           inputs: [
@@ -240,7 +240,7 @@ const deployedContracts = {
         renounceOwnership: "@openzeppelin/contracts/access/Ownable.sol",
         transferOwnership: "@openzeppelin/contracts/access/Ownable.sol",
       },
-      deployedOnBlock: 677,
+      deployedOnBlock: 9944310,
     },
   },
 } as const;
